@@ -14,45 +14,6 @@ function draw() {
   fill(255,255,255)
   rect(2,2,displayWidth - 4, displayHeight - 4)
   strokeWeight(1.5)
-  if(keyIsDown(67)) {
-    if(keyIsDown(82)) {
-      if(keyIsDown(68)) {
-//crd
-//======================================================//여기에 시크릿 크레딧
-//secret credits
-        push()
-        fill(22)
-        rect (0,0,displayWidth, displayHeight)
-        textSize(25)
-        fill(random(0,255),random(0,255),random(0,255))
-        text ("secret-credits-!",50,50)
-        fill (255,255,255)
-        text ("secret-credits-!",50,57)
-        textSize(10)
-        text ("rp.of_JHJH ©",220,53.5)
-        textSize(13)
-        text ("SITE made by - JHJH",50,75)
-        text ("BGM by - AIVA | JHJH",50,85)
-        text ("IDEA by - rp.of_JHJH | SAIPAN-  member",50,95)
-        text ("thank you - Digipen CAMP | SAIPAN CAMP",50,105)
-        text ("종호종호공화국!",50,115)
-        text ("종호종호공화국!!!",50,125)
-        text ("종호종호공화국!!!!!",50,135)
-        text ("종호종호공화국!!!!!!!",50,145)
-        text ("종호종호공화국!!!!!!!!!",50,155)
-        text ("종호종호공화국!!!!!!!!!!!",50,165)
-        text ("종호종호공화국!!!!!!!!!!!!!",50,175)
-        text ("종호종호공화국!!!!!!!!!!!!!!!",50,185)
-        text ("종호종호공화국!!!!!!!!!!!!!!!!!",50,195)
-        text ("종호종호공화국!!!!!!!!!!!!!!!!!!!",50,205)
-        text ("종호종호공화국!!!!!!!!!!!!!!!!!!!!!!!!",50,215)
-        text ("종호종호공화국!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",50,225)
-        pop()
-//여기에 시크릿 크래딧
-//======================================================
-      }
-    }
-  }
 //------------------------------------------------------
   fill(0,0,0)
   push()
