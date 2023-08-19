@@ -2,11 +2,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   }
 
+let j = true
 
 function draw() {
   
   //AD변수
-  let AD = random(1,1)
+  let AD = floor(random(1,1))
   
   background(random(0,255),random(0,255),random(0,255));
   fill(2,245)
@@ -33,17 +34,18 @@ function draw() {
   text("가격 : 영구 1000원 (컬쳐랜드로만 결제)",7,155)
  //===================================================================
   //https://open.kakao.com/o/gTAuCcnf
-  if (AD == 1) {
-    //AD == 1 일때 광고
-    window.open("https://open.kakao.com/o/gTAuCcnf","_blank");
-    AD = 0
+  if (j == true) {
+        if (AD == 1) {
+        //AD == 1 일때 광고
+        window.open("https://open.kakao.com/o/gTAuCcnf","_blank");
+        j = false
   }
-  if (AD == 2) {
-    window.open("[링크]","_blank");
-    AD = 0
-  }
+    if (AD == 2) {
+      window.open("[링크]","_blank");
+      AD = 0
+    }
  //===================================================================
+  }
 }
-
 //<iframe width="[ 가로 ]" height="[ 세로 ]" src="[ 링크 ]" frameborder="0"></iframe>
 //index.html 마지막에 써두기 
