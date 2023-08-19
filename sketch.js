@@ -23,13 +23,11 @@ function draw() {
   text("Most-Simple-Ad",10,45)
   textSize(9.5)
   text("rp.of_JHJH ©",15,55)
-  textSize(12)
+  textSize(15)
+  text("광고문의 버튼",153,130)
   //text("Ver-2.1.3",40,73.5)
   pop()
-  textStyle(BOLD)
-  textSize(15)
-  fill(22)
-  text("광고문의 버튼",153, 130)
+  
   push();
   strokeWeight(10);
   pop();
