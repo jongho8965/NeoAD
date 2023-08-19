@@ -26,12 +26,23 @@ function draw() {
   textSize(12)
   //text("Ver-2.1.3",40,73.5)
   pop()
-  textSize (20)
-  text("광고등록 방법",10,100)
+  textStyle(BOLD)
   textSize(15)
-  text("디스코드 neoguri0311 또는 jongho8965@kakao.com 으로 문의해주세요.",10,120)
-  text("사이트에 접속하면 신청된 랜덤한 광고를 팝업해서 보여줍니다.",7,138)
-  text("가격 : 영구 1000원 (컬쳐랜드로만 결제)",7,155)
+  text("광고문의 버튼",153, 130)
+  push();
+  strokeWeight(10);
+  pop();
+  
+  if(mouseX > 150 && mouseX < 250 
+     && mouseY > 100 && mouseY < 150) 
+  {
+    fill(200, 200, 200)
+  }
+  else{
+    fill(255, 255, 255)
+  }
+  
+  rect(150,100,100,50);
  //===================================================================
   //https://open.kakao.com/o/gTAuCcnf
   if (j == true) {
@@ -49,3 +60,10 @@ function draw() {
 }
 //<iframe width="[ 가로 ]" height="[ 세로 ]" src="[ 링크 ]" frameborder="0"></iframe>
 //index.html 마지막에 써두기 
+//https://open.kakao.com/o/gIBVJeCf
+function mousePressed()
+{
+  if(mouseX > 150 && mouseX < 250 && mouseY > 100 &&   mouseY < 150) {
+    if(DBP == true) {
+      window.open("https://open.kakao.com/o/gIBVJeCf","_blank");
+    }
