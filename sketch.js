@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   }
 
 
@@ -12,7 +12,7 @@ function draw() {
   fill(2,245)
   strokeWeight(0.7)
   fill(255,255,255)
-  rect(2,2,displayWidth - 4, displayHeight - 4)
+  rect(2,2,windowWidth - 4, windowHeight - 4)
   strokeWeight(1.5)
 //------------------------------------------------------
   fill(0,0,0)
