@@ -23,9 +23,6 @@ function draw() {
   text("Most-Simple-Ad",10,45)
   textSize(9.5)
   text("rp.of_JHJH ©",15,55)
-  textSize(15)
-  text("광고문의 버튼",153,130)
-  //text("Ver-2.1.3",40,73.5)
   pop()
   
   push();
@@ -42,6 +39,13 @@ function draw() {
   }
   
   rect(150,100,100,50);
+  
+  push()
+  textStyle(BOLD)
+  textSize(15)
+  fill(22)
+  text("광고문의 버튼",153,130)
+  pop()
  //===================================================================
   //https://open.kakao.com/o/gTAuCcnf
   if (j == true) {
