@@ -35,10 +35,12 @@ function draw() {
   //https://open.kakao.com/o/gTAuCcnf
   if (AD == 1) {
     //AD == 1 일때 광고
-    window.open("//https://open.kakao.com/o/gTAuCcnf","_blank");
+    window.open("https://open.kakao.com/o/gTAuCcnf","_blank");
+    AD = 0
   }
   if (AD == 2) {
     window.open("[링크]","_blank");
+    AD = 0
   }
  //===================================================================
 }
