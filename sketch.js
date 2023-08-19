@@ -64,6 +64,6 @@ function draw() {
 function mousePressed()
 {
   if(mouseX > 150 && mouseX < 250 && mouseY > 100 &&   mouseY < 150) {
-    if(DBP == true) {
       window.open("https://open.kakao.com/o/gIBVJeCf","_blank");
-    }
+  }
+}
