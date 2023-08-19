@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   
   //AD변수
-  let AD = random(0,0)
+  let AD = random(1,1)
   
   background(random(0,255),random(0,255),random(0,255));
   fill(2,245)
@@ -32,8 +32,12 @@ function draw() {
   text("사이트에 접속하면 신청된 랜덤한 광고를 팝업해서 보여줍니다.",7,138)
   text("가격 : 영구 1000원 (컬쳐랜드로만 결제)",7,155)
  //===================================================================
+  //https://open.kakao.com/o/gTAuCcnf
   if (AD == 1) {
     //AD == 1 일때 광고
+    window.open("//https://open.kakao.com/o/gTAuCcnf","_blank");
+  }
+  if (AD == 2) {
     window.open("[링크]","_blank");
   }
  //===================================================================
