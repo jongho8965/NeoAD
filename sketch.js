@@ -28,6 +28,7 @@ function draw() {
   pop()
   textStyle(BOLD)
   textSize(15)
+  fill(22)
   text("광고문의 버튼",153, 130)
   push();
   strokeWeight(10);
