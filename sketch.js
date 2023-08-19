@@ -7,7 +7,7 @@ let j = true
 function draw() {
   
   //AD변수
-  let AD = floor(random(1,1))
+  let AD = floor(random(1,3))
   
   background(random(0,255),random(0,255),random(0,255));
   fill(2,245)
@@ -41,8 +41,8 @@ function draw() {
         j = false
   }
     if (AD == 2) {
-      window.open("[링크]","_blank");
-      AD = 0
+      window.open("https://mine.page/server/rmz.kr","_blank");
+      j = false
     }
  //===================================================================
   }
