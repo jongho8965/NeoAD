@@ -1,3 +1,5 @@
+//https://forms.gle/ahJY1FnLVUXyo1C67
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   }
@@ -7,7 +9,7 @@ let j = true
 function draw() {
   
   //AD변수
-  let AD = floor(random(1,3))
+  let AD = floor(random(1,4))
   
   background(random(0,255),random(0,255),random(0,255));
   fill(2,245)
@@ -20,7 +22,7 @@ function draw() {
   push()
   textSize (40)
   textStyle(BOLD)
-  text("Most-Simple-Ad",10,45)
+  text("Most-Simple-Ad | NeoAD",10,45)
   textSize(9.5)
   text("rp.of_JHJH ©",15,55)
   pop()
@@ -53,9 +55,13 @@ function draw() {
         //AD == 1 일때 광고
         window.open("https://open.kakao.com/o/gTAuCcnf","_blank");
         j = false
-  }
+    }
     if (AD == 2) {
       window.open("https://mine.page/server/rmz.kr","_blank");
+      j = false
+    }
+    if (AD == 3) {
+      window.open("https://forms.gle/ahJY1FnLVUXyo1C67","_blank");
       j = false
     }
  //===================================================================
