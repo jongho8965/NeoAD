@@ -24,7 +24,7 @@ function draw() {
   textStyle(BOLD)
   text("Most-Simple-Ad | NeoAD",10,45)
   textSize(9.5)
-  text("rp.of_JHJH ©",15,55)
+  text("rp.of_JHJH © | V 1.2",15,55)
   pop()
   
   push();
@@ -61,7 +61,7 @@ function draw() {
       j = false
     }
     if (AD == 3) {
-      window.open("https://forms.gle/ahJY1FnLVUXyo1C67","_blank");
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSfLUjdeGeLmCJ6UZZZqneCSWN1V9VlEcTDVoe6f2I1Uwxs35w/viewform","_blank");
       j = false
     }
  //===================================================================
